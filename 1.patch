@@ -1,0 +1,32 @@
+commit 566e05a276991cd80192303142e2d2c08ad463fe
+Author: namnguyenhai <nguyenhainam26@gmail.com>
+Date:   Wed Sep 6 14:26:55 2023 +0700
+
+    add main.py and d.py
+
+diff --git a/d.py b/d.py
+new file mode 100644
+index 0000000..b5f773a
+--- /dev/null
++++ b/d.py
+@@ -0,0 +1,10 @@
++diff --git a/main.py b/main.py
++index 5d36c6b..4c43af6 100644
++--- a/main.py
+++++ b/main.py
++@@ -1,2 +1,3 @@
++ def sum(a,b):
++-    return a + b
+++    return a + b + 2
+++print(sum(2,3))
++\ No newline at end of file
+diff --git a/main.py b/main.py
+new file mode 100644
+index 0000000..4c43af6
+--- /dev/null
++++ b/main.py
+@@ -0,0 +1,3 @@
++def sum(a,b):
++    return a + b + 2
++print(sum(2,3))
+\ No newline at end of file

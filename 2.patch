@@ -1,0 +1,17 @@
+commit 1daa847a8fcbb19ab0366e6101e61ea1a11c4ff2
+Author: namnguyenhai <nguyenhainam26@gmail.com>
+Date:   Wed Sep 6 14:29:42 2023 +0700
+
+    add func sub
+
+diff --git a/main.py b/main.py
+index 4c43af6..5a770cf 100644
+--- a/main.py
++++ b/main.py
+@@ -1,3 +1,5 @@
+ def sum(a,b):
+     return a + b + 2
++def sub(a,b):
++    return a-b
+ print(sum(2,3))
+\ No newline at end of file
